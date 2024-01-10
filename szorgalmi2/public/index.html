@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/kiszamitas" method="post">
+        <label for="">Alkohol mennysége ml-ben</label>
+        <input type="number" name="alkoholMennyisege" id="alkoholMennyisege">
+        <br>
+        <label for="">Személy testsúlya kg-ban</label>
+        <input type="number" name="testsuly" id="testsuly">
+        <br>
+        <label for="">Személy neme: </label>
+        <select name="neme" id="neme">
+            <option value="ferfi">Férfi</option>
+            <option value="no">Nő</option>
+        </select>
+        <br>
+        <label for="">Fogyasztás óta eltelt órák száma:</label>
+        <input type="number" name="elteltOrak" id="elteltOrak">
+        <br>
+        <input type="submit" value="Kiszámítás">
+    </form>
+</body>
+</html>
